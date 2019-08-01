@@ -1,0 +1,141 @@
+	
+.header{
+		background-color: black;
+		color: white;
+		text-align: right;
+		opacity: .7;
+		}
+div.h{
+		background-color: black;
+		color: white;
+		display: inline-block;
+		position: right;
+	 }
+.select-items{
+				color: white;
+				border-color:black;
+				cursor: pointer;
+				user-select: none;
+				background-color:black;
+				font-size: 17px;
+			  }
+			  
+ body {
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+	  }
+			  
+.topnav {
+		overflow: hidden;
+		background-color: black;
+		opacity: 1;
+	    }
+			  
+.topnav a {
+			float: left;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		  }
+			  
+.topnav a:hover {
+				background-color:olivedrab;
+				color: black;
+			  }
+		  
+.topnav a.active {
+				background-color: olivedrab;
+				color: white;
+				  }
+			  
+.topnav-right {
+				float: right;
+			  }
+
+.body {
+		background-image: url('images/image.jpg')   !important;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	  }
+.button {
+	 	 background-color: gainsboro;
+  		 position: center;
+  		 top:1rem;
+  		 width:100%;
+  		 border: none;
+  		 color: white;
+		 padding: 50px 32px;
+		}
+			
+.innerButton{
+			padding:1%;
+			padding-left:3%;
+			}	
+
+span.a{
+		background-color: none;
+   		display: inline-block;
+   		width: 300px;
+  		height: 100px;
+		padding-left: 2%;
+	  }
+			
+.number{
+		font-size:3rem;
+		color:yellow;
+	    }		
+			
+div.d{ 
+		background-color:gainsboro;
+		padding-left:30px;
+		padding-right:30px;
+	 }
+
+div.g{
+		background-color:gainsboro;
+		padding-left: 12%
+	 }
+	
+
+.column {
+  		float: left;;
+  		width: 25%;
+  		height: 220px; 
+  		background-color: white;
+		color: black;
+		margin-top: .5%;
+		  
+		}
+.row:after {
+  			content: "";
+  			display: table;
+			  clear: both;			  
+			  
+			}
+
+p.small{line-height: 0.7;}
+
+h5{
+	position: relative;
+	left: 4rem;
+	font-size: 1rem;
+	}
+td{color: white;}
+
+.col {
+	float: left;
+    width: 25%;
+	height: 200px; 	
+	background-color: black;
+    color: white;
+	}
+
+.column img {
+  			margin-top: 12px;
+  			width: 250px;
+  			height: 133px;
+  			vertical-align: middle;
+			}
